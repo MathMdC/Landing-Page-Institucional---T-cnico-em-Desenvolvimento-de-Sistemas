@@ -8,25 +8,7 @@
     <script src="https://kit.fontawesome.com/89dcb4fa83.js" crossorigin="anonymous"></script>
     <title>GEEAD - Técnico em Desenvolvimento de
         Sistemas</title>
-        <!--CSS Integrado-->
-    <style>
-            .w3-sidebar{
-                background-color: #222;
-                width: 120px;
-            }
-            body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif;
-            text-decoration-line: none; }
-            #main{
-                margin-left: 120px;
-            }
-            .w3-row-padding img {margin-bottom: 12px;}
-            @media only screen and (max-width: 600px) {#main {margin-left: 0}}
-            .container{
-                display: flex;
-            }
-            
-            
-        </style>
+        <link rel="stylesheet" href="style.css">
 </head>
 <!--Criação da Barra-->
 <body class="w3-black">
@@ -247,23 +229,6 @@ w3-hover-text-cyan w3-text-white">
         <button class="w3-button w3-cyan w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
         <button class="w3-button w3-cyan w3-display-right" onclick="plusDivs(1)">&#10095;</button>
         </div>
-<script>
-    var slideIndex = 1;
-    showDivs(slideIndex);
-    function plusDivs(n) {
-    showDivs(slideIndex += n);
-    }
-    function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("slides");
-if (n > x.length) {slideIndex = 1}
-if (n < 1) {slideIndex = x.length}
-for (i = 0; i < x.length; i++) {
-x[i].style.display = "none";
-}
-x[slideIndex-1].style.display = "block";
-}
-</script>
 
 <!--Botão Mercado-->
         <div class="w3-padding-64 w3-content w3-" id="mercado">
@@ -372,6 +337,6 @@ x[slideIndex-1].style.display = "block";
                                                         
 
     
-    
+<script src="script.js"></script>
 </body>
 </html>
