@@ -18,5 +18,5 @@ Uma página responsiva criada para apresentar o curso e seus aspectos.
 - Integração de bibliotecas externas.
 
 ### 🚀 Como rodar o projeto:
-1. Instale os arquivos e deixe a pasta `img` junto ao arquivo `index.html`.
+1. Instale todos os arquivos e deixe todos em uma única pasta.
 2. Abra o `index.html` e pronto!
